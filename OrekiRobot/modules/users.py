@@ -6,7 +6,7 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
 
 import OrekiRobot.modules.sql.users_sql as sql
-from OrekiRobot import DEV_USERS, LOGGER, OREKI_PTB, OWNER_ID
+from OrekiRobot import DEV_USERS, LOGGER, OREKI_MOD, OWNER_ID
 from OrekiRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from OrekiRobot.modules.sql.users_sql import get_all_users
 
